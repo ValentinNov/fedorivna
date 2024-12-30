@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   position: relative;
-  height: 100vh;
+ 
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
 .wrapper {
   /* background-image: url('../images/page-bg.jpg'); */
   background-size: #ccc;
-  /* min-height: 100vh; */
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -74,7 +74,9 @@ body {
 }
 .slider{
     padding-top: 60px;
-    max-height: 500px;
+    /* max-height: 500px; */
+    width: 80vw;
+    margin: 0 auto;
 }
 .slider__item {
   text-align: center;
@@ -157,6 +159,12 @@ footer{
     padding: 30px 20px;
     font-size: 14px;
     text-align: center;
+    
+}
+footer img{
+    margin: 30px 20px 15px;
+     border-radius: 50%;
+     width: 60px;height: 60px;
 }
 
 
